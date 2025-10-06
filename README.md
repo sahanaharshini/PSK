@@ -16,10 +16,10 @@ def butter_lowpass_filter(data, cutoff, fs, order=5):
     b, a = butter(order, normal_cutoff, btype='low', analog=False)
     return lfilter(b, a, data)
 # Parameters
-fs = 1000                # Sampling frequency
-f_carrier = 50           # Carrier frequency
-bit_rate = 10            # Data rate (bits per second)
-T = 1                    # Total time duration in seconds
+fs = 1000                
+f_carrier = 50          
+bit_rate = 10            
+T = 1                    
 t = np.linspace(0, T, int(fs * T), endpoint=False)
 # Message signal (binary data)
 bits = np.random.randint(0, 2, bit_rate)
