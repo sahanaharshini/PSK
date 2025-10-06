@@ -149,5 +149,5 @@ plt.show()
 
 # Results
 ```
-TThus ,the modulation and demodulation of PSK and QPSK has been executed and verified.
+Thus ,the modulation and demodulation of PSK and QPSK has been executed and verified.
 ```
